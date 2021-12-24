@@ -19,7 +19,7 @@ namespace NativeMenuBar.Menus
 		/// </summary>
 		public NativePopupMenu() : base()
 		{
-			_handle = NativeMethod.CreatePopupMenu();
+			Handle = NativeMethod.CreatePopupMenu();
 		}
 
 		/// <summary>

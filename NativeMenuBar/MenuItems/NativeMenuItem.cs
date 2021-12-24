@@ -17,6 +17,10 @@ namespace NativeMenuBar.MenuItems
 	[Serializable]
 	public class NativeMenuItem : NativeMenuItemBase
 	{
+		/// <summary>
+		/// オブジェクト選択時に使用されるデリゲート
+		/// </summary>
+		/// <param name="sender"></param>
 		public delegate void NativeMenuItemSelectedHandler(NativeMenuItem sender);
 
 		/// <summary>
@@ -199,6 +203,9 @@ namespace NativeMenuBar.MenuItems
 			ApplyIcon();
 		}
 
+		/// <summary>
+		/// 現在の項目へアイコンを適用します。
+		/// </summary>
 		protected void ApplyIcon()
 		{
 			NativeMethod.SetMenuItemBitmaps(Handle, (uint)GetThisIndex(), NativeMenuSelectorFlags.MF_BYPOSITION,
@@ -206,6 +213,10 @@ namespace NativeMenuBar.MenuItems
 				CheckedIcon != null ? CheckedIcon.GetHbitmap() : IntPtr.Zero);
 		}
 
+		/// <summary>
+		/// 現在の項目へインデックスを指定してアイコンを適用します。
+		/// </summary>
+		/// <param name="index">対象の項目のインデックス</param>
 		protected void ApplyIcon(int index)
 		{
 			NativeMethod.SetMenuItemBitmaps(Handle, (uint)index, NativeMenuSelectorFlags.MF_BYPOSITION,
@@ -213,6 +224,10 @@ namespace NativeMenuBar.MenuItems
 				CheckedIcon != null ? CheckedIcon.GetHbitmap() : IntPtr.Zero);
 		}
 
+		/// <summary>
+		/// メニュー選択時のイベントを取得します。
+		/// </summary>
+		/// <returns>イベントハンドラ</returns>
 		public NativeMenuItemSelectedHandler GetEventHandler()
 		{
 			return ItemSelected;

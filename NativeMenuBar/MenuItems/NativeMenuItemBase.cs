@@ -10,14 +10,31 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar.MenuItems
 {
+	/// <summary>
+	/// メニュー項目の基底クラス
+	/// </summary>
 	[Serializable]
 	public abstract class NativeMenuItemBase : IDisposable
 	{
+		/// <summary>
+		/// メニュー項目のオプションを指定するフラグを取得、設定します。
+		/// </summary>
 		public NativeMenuFlags Flags { get; set; }
+
+		/// <summary>
+		/// この項目が所属しているメニューを取得、設定します。
+		/// </summary>
 		[IgnoreMember]
 		public NativeMenuBase Parent { get; set; }
+
+		/// <summary>
+		/// この項目のハンドルをを取得、設定します。
+		/// </summary>
 		protected IntPtr Handle { get; set; }
 
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
 		public NativeMenuItemBase()
 		{
 		}
@@ -69,6 +86,7 @@ namespace NativeMenuBar.MenuItems
 			return Parent.Items.ToList().IndexOf(this);
 		}
 
+		/// <inheritdoc />
 		public void Dispose()
 		{
 		}

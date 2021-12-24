@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar.MenuItems
 {
+	/// <summary>
+	/// 区切り線(セパレーター)
+	/// </summary>
 	[Serializable]
 	public class NativeMenuSeparatorItem : NativeMenuItemBase
 	{
+		/// <inheritdoc />
 		public NativeMenuSeparatorItem() : base()
 		{
 			Flags = NativeMenuFlags.MF_SEPARATOR;

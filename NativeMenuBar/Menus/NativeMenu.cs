@@ -17,16 +17,24 @@ namespace NativeMenuBar.Menus
 	{
 		private const uint WM_COMMAND = 0x0111;
 
+		/// <summary>
+		/// メニューの項目テキストにUnicodeを使用するかどうかを取得、設定します。
+		/// </summary>
 		public static bool UseUnicode { get; set; } = false;
 
 		private IWindowMessageHook WndProc = new DefaultWindowMessageHook();
 		private IntPtr hWnd;
 
+		/// <inheritdoc />
 		public NativeMenu() : base()
 		{
-			_handle = NativeMethod.CreateMenu();
+			Handle = NativeMethod.CreateMenu();
 		}
 
+		/// <summary>
+		/// コンストラクタ(独自実装のフックを使用)
+		/// </summary>
+		/// <param name="hookProvider">フックに使用するインスタンス</param>
 		public NativeMenu(IWindowMessageHook hookProvider) : this()
 		{
 			WndProc = hookProvider;
@@ -40,6 +48,7 @@ namespace NativeMenuBar.Menus
 			NativeMethod.DrawMenuBar(hWnd);
 		}
 
+		/// <inheritdoc/>
 		public override NativeMenuItemBase AddMenuItem(NativeMenuItemBase menuItem)
 		{
 			var result = base.AddMenuItem(menuItem);
@@ -48,6 +57,7 @@ namespace NativeMenuBar.Menus
 			return result;
 		}
 
+		/// <inheritdoc/>
 		public override NativeMenuItemBase InsertMenuItem(uint index, NativeMenuItemBase menuItem)
 		{
 			base.InsertMenuItem(index, menuItem);
@@ -115,6 +125,7 @@ namespace NativeMenuBar.Menus
 				SearchRunMethod(wParam);
 		}
 
+		/// <inheritdoc/>
 		public override void Dispose()
 		{
 			base.Dispose();

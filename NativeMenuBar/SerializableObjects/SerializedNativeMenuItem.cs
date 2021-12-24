@@ -9,13 +9,25 @@ using static NativeMenuBar.MenuItems.NativeMenuItem;
 
 namespace NativeMenuBar.SerializableObjects
 {
+	/// <summary>
+	/// シリアライズされたメニュー項目
+	/// </summary>
 	[MessagePackObject(true)]
 	public class SerializedNativeMenuItem
 	{
+		/// <summary/>
 		public Type TargetType;
+
+		/// <summary/>
 		public NativeMenuFlags Flags;
+
+		/// <summary/>
 		public SerializedNativeMenu SubMenu;
+
+		/// <summary/>
 		public string Text;
+
+		/// <summary/>
 		public int ItemSelected;
 	}
 }

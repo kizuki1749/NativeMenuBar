@@ -7,10 +7,16 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar.SerializableObjects
 {
-    [MessagePackObject(true)]
-    public class SerializedNativeMenu
-    {
-        public Type TargetType;
-        public List<SerializedNativeMenuItem> Items = new List<SerializedNativeMenuItem>();
-    }
+	/// <summary>
+	/// シリアライズされたメニュー
+	/// </summary>
+	[MessagePackObject(true)]
+	public class SerializedNativeMenu
+	{
+		/// <summary/>
+		public Type TargetType;
+
+		/// <summary/>
+		public List<SerializedNativeMenuItem> Items = new List<SerializedNativeMenuItem>();
+	}
 }

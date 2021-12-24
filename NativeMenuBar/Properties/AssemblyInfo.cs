@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("NativeMenuBar")]
-[assembly: AssemblyDescription("WindowsAPIを使用したメニューバー")]
+[assembly: AssemblyDescription("Windows APIを使用したメニューバー")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("kizuki1749")]
 [assembly: AssemblyProduct("NativeMenuBar")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // すべての値を指定するか、次を使用してビルド番号とリビジョン番号を既定に設定できます
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0")]
-[assembly: AssemblyFileVersion("1.0")]
+[assembly: AssemblyVersion("1.0.1")]
+[assembly: AssemblyFileVersion("1.0.1")]

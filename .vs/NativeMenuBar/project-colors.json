@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4681a73d-a9ad-439d-8522-7b218ca37f63": {
+      "ProjectGuid": "4681a73d-a9ad-439d-8522-7b218ca37f63",
+      "DisplayName": "NativeMenuBar",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

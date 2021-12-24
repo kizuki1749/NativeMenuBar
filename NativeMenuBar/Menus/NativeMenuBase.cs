@@ -9,18 +9,22 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar.Menus
 {
+	/// <summary>
+	/// メニューの基底クラス
+	/// </summary>
 	public class NativeMenuBase : IDisposable
 	{
-		internal IntPtr Handle
+		/// <summary>
+		/// このメニューへのハンドル
+		/// </summary>
+		protected internal IntPtr Handle
 		{
-			get
-			{
-				return _handle;
-			}
+			get => _handle;
+			protected set => _handle = value;
 		}
 
 		/// <summary>
-		/// 登録されているアイテムの一覧。
+		/// 登録されているアイテムの一覧
 		/// </summary>
 		[IgnoreMember]
 		public IReadOnlyCollection<NativeMenuItemBase> Items
@@ -31,9 +35,12 @@ namespace NativeMenuBar.Menus
 			}
 		}
 
-		protected IntPtr _handle;
-		protected List<NativeMenuItemBase> _items = new List<NativeMenuItemBase>();
+		private IntPtr _handle;
+		private List<NativeMenuItemBase> _items = new List<NativeMenuItemBase>();
 
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
 		public NativeMenuBase()
 		{
 		}
@@ -76,13 +83,14 @@ namespace NativeMenuBar.Menus
 		/// <summary>
 		/// インデックスを指定してメニュー項目を削除します。
 		/// </summary>
-		/// <param name="menuItem">削除するメニュー項目のインデックス</param>
+		/// <param name="index">削除するメニュー項目のインデックス</param>
 		public virtual void DeleteMenuItem(int index)
 		{
 			_items[index].UnRegister();
 			_items.Remove(_items[index]);
 		}
 
+		/// <inheritdoc />
 		public virtual void Dispose()
 		{
 			NativeMethod.DestroyMenu(_handle);
