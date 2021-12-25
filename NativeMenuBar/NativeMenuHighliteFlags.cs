@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar
 {
+	/// <summary>
+	/// ハイライトのオプション
+	/// </summary>
 	[Serializable]
 	public enum NativeMenuHighliteFlags : uint
     {

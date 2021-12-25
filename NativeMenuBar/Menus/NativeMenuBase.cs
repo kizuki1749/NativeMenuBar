@@ -1,5 +1,4 @@
-﻿using MessagePack;
-using NativeMenuBar.MenuItems;
+﻿using NativeMenuBar.MenuItems;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +25,6 @@ namespace NativeMenuBar.Menus
 		/// <summary>
 		/// 登録されているアイテムの一覧
 		/// </summary>
-		[IgnoreMember]
 		public IReadOnlyCollection<NativeMenuItemBase> Items
 		{
 			get

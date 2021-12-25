@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar
 {
+
     [Obsolete("現段階では未使用", true)]
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode, Size = 512)]
-    public struct MENUITEMINFO
+    internal struct MENUITEMINFO
     {
         public uint cbSize;
         public MaskFlags fMask;

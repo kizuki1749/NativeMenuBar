@@ -1,5 +1,4 @@
-﻿using MessagePack;
-using NativeMenuBar.Menus;
+﻿using NativeMenuBar.Menus;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -38,7 +37,7 @@ namespace NativeMenuBar.MenuItems
         internal override void Register(IntPtr menuHandle)
 		{
 			Handle = menuHandle;
-			if (NativeMenu.UseUnicode)
+			if (NativeMenuRegisterOption.UseUnicode)
 			{
 				//LPCWSTR型(WCHAR)
 				if (!NativeMethod.AppendMenuW(menuHandle, Flags, Id, Text))
@@ -56,7 +55,7 @@ namespace NativeMenuBar.MenuItems
 		internal override void RegisterInsert(IntPtr menuHandle, uint index, NativeMenuFlags flags)
 		{
 			Handle = menuHandle;
-			if (NativeMenu.UseUnicode)
+			if (NativeMenuRegisterOption.UseUnicode)
 			{
 				//LPCWSTR型(WCHAR)
 				if (!NativeMethod.InsertMenuW(menuHandle, index, Flags | flags, Id, Text))

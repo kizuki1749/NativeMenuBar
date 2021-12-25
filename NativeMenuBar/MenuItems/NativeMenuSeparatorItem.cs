@@ -1,5 +1,4 @@
-﻿using MessagePack;
-using NativeMenuBar.Menus;
+﻿using NativeMenuBar.Menus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +23,7 @@ namespace NativeMenuBar.MenuItems
 		internal override void Register(IntPtr menuHandle)
 		{
 			Handle = menuHandle;
-			if (NativeMenu.UseUnicode)
+			if (NativeMenuRegisterOption.UseUnicode)
 			{
 				if (!NativeMethod.AppendMenuW(menuHandle, Flags, 0, null))
 					throw new InvalidOperationException("メニュー項目の登録に失敗しました。");
@@ -39,7 +38,7 @@ namespace NativeMenuBar.MenuItems
 		internal override void RegisterInsert(IntPtr menuHandle, uint index, NativeMenuFlags flags)
 		{
 			Handle = menuHandle;
-			if (NativeMenu.UseUnicode)
+			if (NativeMenuRegisterOption.UseUnicode)
 			{
 				if (!NativeMethod.InsertMenuW(menuHandle, index, Flags | flags, 0, null))
 					throw new InvalidOperationException("メニュー項目の登録に失敗しました。");

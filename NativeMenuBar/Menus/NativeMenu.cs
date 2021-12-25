@@ -1,5 +1,4 @@
-﻿using MessagePack;
-using NativeMenuBar.Hooks;
+﻿using NativeMenuBar.Hooks;
 using NativeMenuBar.MenuItems;
 using System;
 using System.Collections.Generic;
@@ -18,12 +17,14 @@ namespace NativeMenuBar.Menus
 		private const uint WM_COMMAND = 0x0111;
 
 		/// <summary>
-		/// メニューの項目テキストにUnicodeを使用するかどうかを取得、設定します。
+		/// ウィンドウメッセージを処理するクラスのインスタンス
 		/// </summary>
-		public static bool UseUnicode { get; set; } = false;
+		protected IWindowMessageHook WndProc = new DefaultWindowMessageHook();
 
-		private IWindowMessageHook WndProc = new DefaultWindowMessageHook();
-		private IntPtr hWnd;
+		/// <summary>
+		/// 対象のウィンドウハンドル
+		/// </summary>
+		protected IntPtr hWnd;
 
 		/// <inheritdoc />
 		public NativeMenu() : base()
@@ -87,7 +88,7 @@ namespace NativeMenuBar.Menus
 			if (!NativeMethod.SetMenu(hWnd, Handle))
 				throw new InvalidOperationException("メニューの設定に失敗しました。");
 			this.hWnd = hWnd;
-			SetHook();
+			SetHookInternal();
 			WndProc.StartHook(hWnd);
 		}
 
@@ -99,14 +100,14 @@ namespace NativeMenuBar.Menus
 		{
 			NativeMethod.SetMenu(hWnd, IntPtr.Zero);
 			this.hWnd = hWnd;
-			RemoveHook();
+			RemoveHookInternal();
 			WndProc.StopHook(hWnd);
 		}
 
 		/// <summary>
 		/// ウィンドウメッセージを取得するフックを設定します。(上級者向け)
 		/// </summary>
-		public void SetHook()
+		protected void SetHookInternal()
 		{
 			WndProc.Hook += Hook;
 		}
@@ -114,12 +115,19 @@ namespace NativeMenuBar.Menus
 		/// <summary>
 		/// ウィンドウメッセージを取得するフックを解除します。(上級者向け)
 		/// </summary>
-		public void RemoveHook()
+		protected void RemoveHookInternal()
 		{
 			WndProc.Hook -= Hook;
 		}
 
-		private void Hook(IntPtr hWnd, uint msg, uint wParam, int lParam)
+		/// <summary>
+		/// ウィンドウメッセージ受信時に実行されます。
+		/// </summary>
+		/// <param name="hWnd">送信元のウィンドウハンドル</param>
+		/// <param name="msg">ウィンドウメッセージ</param>
+		/// <param name="wParam">パラメーター1</param>
+		/// <param name="lParam">パラメーター2</param>
+		protected void Hook(IntPtr hWnd, uint msg, uint wParam, int lParam)
 		{
 			if (msg == WM_COMMAND)
 				SearchRunMethod(wParam);

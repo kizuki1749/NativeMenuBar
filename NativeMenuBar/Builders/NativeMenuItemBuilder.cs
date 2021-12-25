@@ -12,12 +12,14 @@ namespace NativeMenuBar.Builders
     /// </summary>
     public class NativeMenuItemBuilder : NativeMenuItemBuilderBase<NativeMenuItem, NativeMenuItemBuilder>
     {
+        /// <inheritdoc/>
         public NativeMenuItemBuilder() : base()
         {
             Item = new NativeMenuItem();
             _option = new NativeMenuItemOptionBuilder(Item);
         }
 
+        /// <inheritdoc/>
         public override NativeMenuItem Build()
         {
             base.Build();
