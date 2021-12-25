@@ -9,7 +9,7 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>NativeMenuBarで使用するメニューのシリアライズ機能を提供します。</description>
+    <description>NativeMenuBarで使用するメニューをシリアライズした状態でのクラスを提供します。MessagePackを公式でサポートしています。</description>
     <releaseNotes>初回リリース</releaseNotes>
     <copyright>Copyright 2021</copyright>
   </metadata>

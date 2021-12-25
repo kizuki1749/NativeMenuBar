@@ -1,0 +1,12 @@
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.csproj.AssemblyReference.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.AssemblyInfoInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.AssemblyInfo.cs
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net5.0-windows\NativeMenuBar.deps.json
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net5.0-windows\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net5.0-windows\NativeMenuBar.pdb
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net5.0-windows\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net5.0-windows\NativeMenuBar.pdb

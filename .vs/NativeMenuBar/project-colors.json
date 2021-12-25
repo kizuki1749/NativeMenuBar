@@ -20,7 +20,12 @@
       "ProjectGuid": "eb2b524a-c5f6-4bbc-a154-2e513677a202",
       "DisplayName": "NativeMenuBar",
       "ColorIndex": 2
+    },
+    "8f2fa6bd-e5ee-4d43-b18f-f258a783eeee": {
+      "ProjectGuid": "8f2fa6bd-e5ee-4d43-b18f-f258a783eeee",
+      "DisplayName": "NativeMenuBar.SerializableObjects",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

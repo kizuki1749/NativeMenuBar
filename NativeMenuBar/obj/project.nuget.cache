@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2P05PIhCVCGZSe8Ji9154yOU+Mr3aTrXEvcNgSiwo2youQBrmdpfYF6o+lbJRcebIEdnPTjWwSSdVlgWJqKxhw==",
+  "dgSpecHash": "VfGWXq0VJAdLtyzbXFOpD3P/srDNwz8G2MvABALsMHvclo0N5FKJS1G6hwTOxnVG9ndpzFSNqTLMNELq59SfkQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBar\\NativeMenuBar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkizu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

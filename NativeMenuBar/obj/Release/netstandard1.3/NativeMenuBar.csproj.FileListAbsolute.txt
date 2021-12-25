@@ -1,0 +1,5 @@
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\netstandard1.3\NativeMenuBar.csproj.AssemblyReference.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\netstandard1.3\NativeMenuBar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\netstandard1.3\NativeMenuBar.AssemblyInfoInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\netstandard1.3\NativeMenuBar.AssemblyInfo.cs
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\netstandard1.3\NativeMenuBar.csproj.CoreCompileInputs.cache

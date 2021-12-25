@@ -533,6 +533,12 @@
             上級者向け機能が使えるWindows APIを使用したメニューバー
             </summary>
         </member>
+        <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.#ctor(NativeMenuBar.Hooks.IWindowMessageHook)">
+            <inheritdoc/>
+        </member>
         <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.SetHook">
             <summary>
             ウィンドウメッセージを取得するフックを設定します。(上級者向け)

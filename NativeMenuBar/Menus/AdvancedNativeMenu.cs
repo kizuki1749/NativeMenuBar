@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NativeMenuBar.Hooks;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,16 @@ namespace NativeMenuBar.Menus
     /// </summary>
     public class AdvancedNativeMenu : NativeMenu
     {
+		/// <inheritdoc />
+		public AdvancedNativeMenu() : base()
+		{
+		}
+
+		/// <inheritdoc/>
+		public AdvancedNativeMenu(IWindowMessageHook hookProvider) : base(hookProvider)
+		{
+		}
+
 		/// <summary>
 		/// ウィンドウメッセージを取得するフックを設定します。(上級者向け)
 		/// </summary>
