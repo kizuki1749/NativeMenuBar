@@ -15,7 +15,14 @@ namespace NativeMenuBar.Builders
 	/// <typeparam name="T2">派生クラスの型</typeparam>
 	public abstract class NativeMenuItemBuilderBase<T1, T2> : IBuilder<T1> where T1 : NativeMenuItem where T2 : NativeMenuItemBuilderBase<T1, T2>
 	{
+		/// <summary>
+		/// ビルド成果物を示します。
+		/// </summary>
 		protected T1 Item;
+
+		/// <summary>
+		/// オプションビルダーを示します。
+		/// </summary>
 		protected NativeMenuItemOptionBuilder _option;
 
 		/// <summary>
@@ -62,7 +69,9 @@ namespace NativeMenuBar.Builders
 			set => Item.UnCheckedIcon = value;
 		}
 
-		
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
 		protected NativeMenuItemBuilderBase()
         {
         }

@@ -14,10 +14,17 @@ namespace NativeMenuBar.Builders
 	/// </summary>
 	public class NativeMenuPopupItemBuilder : NativeMenuItemBuilderBase<NativeMenuPopupItem, NativeMenuPopupItemBuilder>
 	{
-		public ImmutableList<NativeMenuPopupItem> SubMenuItems { get => (ImmutableList<NativeMenuPopupItem>)SubMenu.Items; }
+		/// <summary>
+		/// サブメニューの項目を取得します。
+		/// </summary>
+		public ImmutableList<NativeMenuItemBase> SubMenuItems { get => (ImmutableList<NativeMenuItemBase>)SubMenu.Items; }
 
+		/// <summary>
+		/// 登録されているサブメニュー
+		/// </summary>
 		protected NativePopupMenu SubMenu;
 
+		/// <inheritdoc/>
 		public NativeMenuPopupItemBuilder() : base()
 		{
 			Item = new NativeMenuPopupItem("", new NativePopupMenu());
@@ -25,12 +32,22 @@ namespace NativeMenuBar.Builders
 			_option = new NativeMenuItemOptionBuilder(Item);
 		}
 
+		/// <summary>
+		/// サブメニューの項目を設定します。
+		/// </summary>
+		/// <param name="SubMenuItems">登録する項目</param>
+		/// <returns>現在のインスタンス</returns>
 		public NativeMenuPopupItemBuilder SetSubMenuItems(params NativeMenuItemBase[] SubMenuItems)
 		{
 			SetSubMenuItemsFromArray(SubMenuItems);
 			return this;
 		}
 
+		/// <summary>
+		/// サブメニューの項目を設定します。
+		/// </summary>
+		/// <param name="SubMenuItems">登録する項目の配列</param>
+		/// <returns>現在のインスタンス</returns>
 		public NativeMenuPopupItemBuilder SetSubMenuItemsFromArray(NativeMenuItemBase[] SubMenuItems)
 		{
 			while (SubMenu.Items.Count > 0)
@@ -40,6 +57,7 @@ namespace NativeMenuBar.Builders
 			return this;
 		}
 
+		/// <inheritdoc/>
 		public override NativeMenuPopupItem Build()
 		{
 			base.Build();

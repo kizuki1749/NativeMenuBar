@@ -1,5 +1,4 @@
-﻿using MessagePack;
-using NativeMenuBar.Menus;
+﻿using NativeMenuBar.Menus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +23,6 @@ namespace NativeMenuBar.MenuItems
 		/// <summary>
 		/// この項目が所属しているメニューを取得、設定します。
 		/// </summary>
-		[IgnoreMember]
 		public NativeMenuBase Parent { get; set; }
 
 		/// <summary>
@@ -67,7 +65,7 @@ namespace NativeMenuBar.MenuItems
 		/// <exception cref="InvalidOperationException"></exception>
 		public virtual void Apply()
 		{
-			if (NativeMenu.UseUnicode)
+			if (NativeMenuRegisterOption.UseUnicode)
 			{
 				if (!NativeMethod.ModifyMenuA(Handle, (uint)GetThisIndex(), Flags | NativeMenuFlags.MF_BYPOSITION, 0, ""))
 					throw new InvalidOperationException("メニュー項目の更新に失敗しました。");

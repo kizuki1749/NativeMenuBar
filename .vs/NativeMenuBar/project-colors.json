@@ -3,9 +3,24 @@
   "ProjectMap": {
     "4681a73d-a9ad-439d-8522-7b218ca37f63": {
       "ProjectGuid": "4681a73d-a9ad-439d-8522-7b218ca37f63",
-      "DisplayName": "NativeMenuBar",
+      "DisplayName": "NativeMenuBar_old",
       "ColorIndex": 0
+    },
+    "b1d820d4-c757-4e5e-bacc-0ad34c2fa14f": {
+      "ProjectGuid": "b1d820d4-c757-4e5e-bacc-0ad34c2fa14f",
+      "DisplayName": "NativeMenuBarTest",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "その他のファイル",
+      "ColorIndex": -1
+    },
+    "eb2b524a-c5f6-4bbc-a154-2e513677a202": {
+      "ProjectGuid": "eb2b524a-c5f6-4bbc-a154-2e513677a202",
+      "DisplayName": "NativeMenuBar",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
