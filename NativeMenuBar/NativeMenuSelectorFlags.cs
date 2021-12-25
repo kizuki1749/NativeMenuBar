@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace NativeMenuBar
 {
 	[Serializable]
-	internal enum NativeMenuSelectorFlags : uint
+	public enum NativeMenuSelectorFlags : uint
     {
 		/// <summary>
 		/// uPositionにメニュー項目のIDを使用する

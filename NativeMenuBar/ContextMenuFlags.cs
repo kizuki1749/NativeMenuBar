@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar
 {
-    /// <summary>
-    /// コンテキストメニューの表示オプション
-    /// </summary>
     [Serializable]
     [Flags]
     public enum ContextMenuFlags : uint

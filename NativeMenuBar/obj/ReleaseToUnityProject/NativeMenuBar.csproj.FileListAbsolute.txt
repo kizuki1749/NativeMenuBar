@@ -1,0 +1,8 @@
+D:\GitHub Repository\Hinamo3DLayouter\Assets\Plugins\NativeMenuBar.dll.config
+D:\GitHub Repository\Hinamo3DLayouter\Assets\Plugins\NativeMenuBar.dll
+D:\GitHub Repository\Hinamo3DLayouter\Assets\Plugins\NativeMenuBar.pdb
+D:\GitHub Repository\Hinamo3DLayouter\NativeMenuBar\NativeMenuBar\obj\ReleaseToUnityProject\NativeMenuBar.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\Hinamo3DLayouter\NativeMenuBar\NativeMenuBar\obj\ReleaseToUnityProject\NativeMenuBar.csproj.CopyComplete
+D:\GitHub Repository\Hinamo3DLayouter\NativeMenuBar\NativeMenuBar\obj\ReleaseToUnityProject\NativeMenuBar.dll
+D:\GitHub Repository\Hinamo3DLayouter\NativeMenuBar\NativeMenuBar\obj\ReleaseToUnityProject\NativeMenuBar.pdb
+D:\GitHub Repository\Hinamo3DLayouter\NativeMenuBar\NativeMenuBar\obj\ReleaseToUnityProject\NativeMenuBar.csproj.AssemblyReference.cache

@@ -13,10 +13,6 @@ namespace NativeMenuBar.Builders
 	/// <typeparam name="T">ビルド成果物の型</typeparam>
 	public interface IBuilder<T>
 	{
-		/// <summary>
-		/// ビルドを実行します。
-		/// </summary>
-		/// <returns>ビルド成果物</returns>
 		T Build();
 	}
 }

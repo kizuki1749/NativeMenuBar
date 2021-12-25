@@ -50,7 +50,7 @@ namespace NativeMenuBar.Menus
 		/// <param name="y">表示位置Y</param>
 		/// <param name="flags">表示オプション</param>
 		/// <param name="hWnd">対象のウィンドウハンドル</param>
-		public virtual void ShowContextMenu(int x, int y, ContextMenuFlags flags, IntPtr hWnd)
+		public void ShowContextMenu(int x, int y, ContextMenuFlags flags, IntPtr hWnd)
 		{
 			int result = NativeMethod.TrackPopupMenuEx(Handle, flags | ContextMenuFlags.TPM_RETURNCMD, x, y, hWnd, IntPtr.Zero);
 			if (result > 0)

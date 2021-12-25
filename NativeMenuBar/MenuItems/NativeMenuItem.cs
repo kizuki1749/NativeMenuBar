@@ -1,4 +1,5 @@
-﻿using NativeMenuBar.Menus;
+﻿using MessagePack;
+using NativeMenuBar.Menus;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Interop;
 
 namespace NativeMenuBar.MenuItems
 {
@@ -144,7 +146,7 @@ namespace NativeMenuBar.MenuItems
 		internal override void Register(IntPtr menuHandle)
 		{
 			Handle = menuHandle;
-			if (NativeMenuRegisterOption.UseUnicode)
+			if (NativeMenu.UseUnicode)
 			{
 				//LPCWSTR型(WCHAR)
 				if (!NativeMethod.AppendMenuW(menuHandle, Flags, Id, Text))
@@ -162,7 +164,7 @@ namespace NativeMenuBar.MenuItems
 		internal override void RegisterInsert(IntPtr menuHandle, uint index, NativeMenuFlags flags)
 		{
 			Handle = menuHandle;
-			if (NativeMenuRegisterOption.UseUnicode)
+			if (NativeMenu.UseUnicode)
 			{
 				//LPCWSTR型(WCHAR)
 				if (!NativeMethod.InsertMenuW(menuHandle, index, Flags | flags, Id, Text))
@@ -188,7 +190,7 @@ namespace NativeMenuBar.MenuItems
 		/// <inheritdoc/>
 		public override void Apply()
 		{
-			if (NativeMenuRegisterOption.UseUnicode)
+			if (NativeMenu.UseUnicode)
 			{
 				if (!NativeMethod.ModifyMenuA(Handle, (uint)GetThisIndex(), Flags | NativeMenuFlags.MF_BYPOSITION, Id, Text))
 					throw new InvalidOperationException("メニュー項目の更新に失敗しました。");
