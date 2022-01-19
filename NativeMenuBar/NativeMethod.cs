@@ -72,6 +72,9 @@ namespace NativeMenuBar
 		[DllImport("user32.dll")]
 		public static extern bool HiliteMenuItem(IntPtr hWnd, IntPtr hMenu, uint uIDHiliteItem, NativeMenuHighliteFlags uHilite);
 
+		[DllImport("user32.dll")]
+		public static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
+
 		//[DllImport("user32.dll")]
 		//public static extern bool GetMenuItemInfoA(IntPtr hMenu, uint item, bool fByPosition, IntPtr lpmii);
 

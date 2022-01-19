@@ -28,13 +28,18 @@ namespace NativeMenuBar.MenuItems
 		/// </summary>
 		public NativePopupMenu SubMenu { get; protected internal set; }
 
-		internal NativeMenuPopupItem(string text, NativePopupMenu subMenu) : base(text)
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
+		/// <param name="text">メニュー項目のテキスト</param>
+		/// <param name="subMenu">表示するサブメニュー</param>
+		public NativeMenuPopupItem(string text, NativePopupMenu subMenu) : base(text)
 		{
 			Flags |= NativeMenuFlags.MF_POPUP;
 			SubMenu = subMenu;
 		}
 
-        internal override void Register(IntPtr menuHandle)
+		internal override void Register(IntPtr menuHandle)
 		{
 			Handle = menuHandle;
 			if (NativeMenuRegisterOption.UseUnicode)

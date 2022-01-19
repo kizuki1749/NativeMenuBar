@@ -520,6 +520,13 @@
             表示するサブメニュー
             </summary>
         </member>
+        <member name="M:NativeMenuBar.MenuItems.NativeMenuPopupItem.#ctor(System.String,NativeMenuBar.Menus.NativePopupMenu)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="text">メニュー項目のテキスト</param>
+            <param name="subMenu">表示するサブメニュー</param>
+        </member>
         <member name="T:NativeMenuBar.MenuItems.NativeMenuSeparatorItem">
             <summary>
             区切り線(セパレーター)
@@ -532,6 +539,12 @@
             <summary>
             上級者向け機能が使えるWindows APIを使用したメニューバー
             </summary>
+        </member>
+        <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.#ctor(NativeMenuBar.Hooks.IWindowMessageHook)">
+            <inheritdoc/>
         </member>
         <member name="M:NativeMenuBar.Menus.AdvancedNativeMenu.SetHook">
             <summary>
@@ -703,6 +716,25 @@
             この項目では未使用。
             </summary>
             <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:NativeMenuBar.Menus.NativeSystemMenu">
+            <summary>
+            Windows APIを使用したシステムメニュー
+            </summary>
+        </member>
+        <member name="M:NativeMenuBar.Menus.NativeSystemMenu.#ctor(System.IntPtr)">
+            <inheritdoc />
+        </member>
+        <member name="M:NativeMenuBar.Menus.NativeSystemMenu.SetMenu(System.IntPtr)">
+            <inheritdoc />
+        </member>
+        <member name="M:NativeMenuBar.Menus.NativeSystemMenu.SetMenu">
+            <summary>
+            システムメニューへメニューを設定します。
+            </summary>
+        </member>
+        <member name="M:NativeMenuBar.Menus.NativeSystemMenu.Dispose">
+            <inheritdoc/>
         </member>
         <member name="T:NativeMenuBar.NativeMenuFlags">
             <summary>

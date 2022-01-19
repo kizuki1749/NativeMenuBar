@@ -83,7 +83,7 @@ namespace NativeMenuBar.Builders
 		/// <returns>現在のインスタンス</returns>
 		public T2 WithText(string Text)
         {
-			Item.Text = Text;
+			Item._text = Text;
 			return (T2)this;
         }
 

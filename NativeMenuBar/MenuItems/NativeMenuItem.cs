@@ -31,10 +31,23 @@ namespace NativeMenuBar.MenuItems
 		/// </summary>
 		public uint Id { get; internal set; }
 
+		internal string _text;
+
 		/// <summary>
 		/// メニュー項目に表示されるテキスト
 		/// </summary>
-		public string Text { get; internal set; }
+		public string Text
+		{
+			get
+			{
+				return _text;
+			}
+			set
+			{
+				_text = value;
+				Apply();
+			}
+		}
 
 		/// <summary>
 		/// 未チェック時に表示されるアイコン。この項目は直ちに適用されます。(トップメニューの場合は再描画が必要)
@@ -104,11 +117,11 @@ namespace NativeMenuBar.MenuItems
 		/// コンストラクタ
 		/// </summary>
 		/// <param name="text">メニュー項目に表示されるテキスト</param>
-		internal NativeMenuItem(string text) : base()
+		public NativeMenuItem(string text) : base()
 		{
 			Flags = NativeMenuFlags.MF_UNCHECKED | NativeMenuFlags.MF_STRING | NativeMenuFlags.MF_ENABLED;
 			Id = (uint)GetHashCode();
-			Text = text;
+			_text = text;
 		}
 
 		/// <summary>
@@ -116,7 +129,7 @@ namespace NativeMenuBar.MenuItems
 		/// </summary>
 		/// <param name="text">メニュー項目に表示されるテキスト</param>
 		/// <param name="icon">メニュー項目に表示されるアイコン</param>
-		internal NativeMenuItem(Bitmap icon, string text) : this(text)
+		public NativeMenuItem(Bitmap icon, string text) : this(text)
 		{
 			UnCheckedIcon = icon;
 		}
@@ -126,7 +139,7 @@ namespace NativeMenuBar.MenuItems
 		/// </summary>
 		/// <param name="text">メニュー項目に表示されるテキスト</param>
 		/// <param name="itemClicked">項目選択時に実行される処理</param>
-		internal NativeMenuItem(string text, NativeMenuItemSelectedHandler itemClicked) : this(text)
+		public NativeMenuItem(string text, NativeMenuItemSelectedHandler itemClicked) : this(text)
 		{
 			ItemSelected += itemClicked;
 		}

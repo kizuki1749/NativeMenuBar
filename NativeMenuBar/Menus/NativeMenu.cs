@@ -15,6 +15,7 @@ namespace NativeMenuBar.Menus
 	public class NativeMenu : NativeMenuBase
 	{
 		private const uint WM_COMMAND = 0x0111;
+		private const uint WM_SYSCOMMAND = 0x0112;
 
 		/// <summary>
 		/// ウィンドウメッセージを処理するクラスのインスタンス
@@ -83,7 +84,7 @@ namespace NativeMenuBar.Menus
 		/// 指定したウィンドウハンドルへメニューを設定します。
 		/// </summary>
 		/// <param name="hWnd">対象のウィンドウのハンドル</param>
-		public void SetMenu(IntPtr hWnd)
+		public virtual void SetMenu(IntPtr hWnd)
 		{
 			if (!NativeMethod.SetMenu(hWnd, Handle))
 				throw new InvalidOperationException("メニューの設定に失敗しました。");
@@ -96,7 +97,7 @@ namespace NativeMenuBar.Menus
 		/// 指定したウィンドウハンドルに設定されているメニューを解除します。
 		/// </summary>
 		/// <param name="hWnd">対象のウィンドウのハンドル</param>
-		public void RemoveMenu(IntPtr hWnd)
+		public virtual void RemoveMenu(IntPtr hWnd)
 		{
 			NativeMethod.SetMenu(hWnd, IntPtr.Zero);
 			this.hWnd = hWnd;
@@ -129,7 +130,7 @@ namespace NativeMenuBar.Menus
 		/// <param name="lParam">パラメーター2</param>
 		protected void Hook(IntPtr hWnd, uint msg, uint wParam, int lParam)
 		{
-			if (msg == WM_COMMAND)
+			if (msg == WM_COMMAND || msg == WM_SYSCOMMAND)
 				SearchRunMethod(wParam);
 		}
 

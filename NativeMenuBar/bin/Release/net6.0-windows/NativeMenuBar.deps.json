@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "NativeMenuBar/1.1.1": {
+      "NativeMenuBar/1.2": {
         "dependencies": {
           "System.Collections.Immutable": "6.0.0",
           "System.Drawing.Common": "6.0.0"
@@ -65,7 +65,7 @@
     }
   },
   "libraries": {
-    "NativeMenuBar/1.1.1": {
+    "NativeMenuBar/1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
