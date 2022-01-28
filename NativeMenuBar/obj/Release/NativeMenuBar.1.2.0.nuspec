@@ -10,7 +10,7 @@
     <icon>NativeMenuBar.png</icon>
     <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
     <description>Windows APIを使用したメニューバー</description>
-    <releaseNotes>バグの修正を行いました。</releaseNotes>
+    <releaseNotes>システムメニューの変更に対応しました。</releaseNotes>
     <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" />
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">

@@ -16,7 +16,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/kizuki1749/NativeMenuBar</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>バグの修正を行いました。</PackageReleaseNotes>
+    <PackageReleaseNotes>システムメニューの変更に対応しました。</PackageReleaseNotes>
     <ApplicationIcon>icon_128.ico</ApplicationIcon>
     <PackageIcon>NativeMenuBar.png</PackageIcon>
     <AssemblyVersion>1.2</AssemblyVersion>
