@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MKAmj1dXOdxHyqx19TKI/Js1Lo0OUjF35qfvKIgfzt/k5pIMKuuiB2HJViDbb2qRE7r0EHhL7rYgKEesUwXcYg==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBar.Hooks.NETWindowMessageHook\\NativeMenuBar.Hooks.NETWindowMessageHook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tkizu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\nativemenubar\\1.2.2\\nativemenubar.1.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

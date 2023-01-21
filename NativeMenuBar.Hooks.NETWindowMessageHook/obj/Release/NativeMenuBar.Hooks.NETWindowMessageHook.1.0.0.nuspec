@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NativeMenuBar.Hooks.NETWindowMessageHook</id>
+    <version>1.0.0</version>
+    <title>NativeMenuBar.Hooks.NETWindowMessageHook</title>
+    <authors>kizuki1749</authors>
+    <icon>NativeMenuBar.png</icon>
+    <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
+    <description>NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用します。</description>
+    <releaseNotes>初期リリース</releaseNotes>
+    <repository url="https://github.com/kizuki1749/NativeMenuBar" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="NativeMenuBar" version="1.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.dll" target="lib\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.png" target="\NativeMenuBar.png" />
+  </files>
+</package>

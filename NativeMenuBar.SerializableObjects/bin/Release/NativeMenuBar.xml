@@ -288,6 +288,28 @@
             左クリックと右クリックの両方でクリックできる
             </summary>
         </member>
+        <member name="T:NativeMenuBar.Hooks.DefaultWindowMessageHook">
+            <summary>
+            ウィンドウメッセージを受け取るための標準のフック
+            </summary>
+        </member>
+        <member name="E:NativeMenuBar.Hooks.DefaultWindowMessageHook.Hook">
+            <summary>
+            ウィンドウメッセージ取得時のイベント
+            </summary>
+        </member>
+        <member name="M:NativeMenuBar.Hooks.DefaultWindowMessageHook.StartHook(System.IntPtr)">
+            <summary>
+            フックを開始します。
+            </summary>
+            <param name="hwnd">対象のウィンドウハンドル</param>
+        </member>
+        <member name="M:NativeMenuBar.Hooks.DefaultWindowMessageHook.StopHook(System.IntPtr)">
+            <summary>
+            フックを停止します。
+            </summary>
+            <param name="hwnd">対象のウィンドウハンドル</param>
+        </member>
         <member name="T:NativeMenuBar.Hooks.WndProcHookDelegate">
             <summary>
             内部フックに使用するデリゲート

@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <Authors>kizuki1749</Authors>
+    <PackageReleaseNotes>細かな修正を行いました。</PackageReleaseNotes>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <RepositoryUrl>https://github.com/kizuki1749/NativeMenuBar</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kizuki1749/NativeMenuBar</PackageProjectUrl>
+    <PackageIcon>NativeMenuBar.png</PackageIcon>
+    <Version>1.0.2</Version>
+    <Description>NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用し、コンストラクタに指定します。</Description>
+    <Nullable>annotations</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.1|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\NativeMenuBar.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NativeMenuBar\NativeMenuBar.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

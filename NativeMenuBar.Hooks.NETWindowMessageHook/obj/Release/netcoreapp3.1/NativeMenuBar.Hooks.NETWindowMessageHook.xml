@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NativeMenuBar.Hooks.NETWindowMessageHook</name>
+    </assembly>
+    <members>
+        <member name="E:NativeMenuBar.Hooks.NETWindowMessageHook.Hook">
+            <summary>
+            ウィンドウメッセージ取得時のイベント
+            </summary>
+        </member>
+        <member name="M:NativeMenuBar.Hooks.NETWindowMessageHook.StartHook(System.IntPtr)">
+            <summary>
+            フックを開始します。
+            </summary>
+            <param name="hwnd">対象のウィンドウハンドル</param>
+        </member>
+        <member name="M:NativeMenuBar.Hooks.NETWindowMessageHook.StopHook(System.IntPtr)">
+            <summary>
+            フックを停止します。
+            </summary>
+            <param name="hwnd">対象のウィンドウハンドル</param>
+        </member>
+    </members>
+</doc>

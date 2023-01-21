@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 
 namespace NativeMenuBar.Hooks
 {
-	internal class DefaultWindowMessageHook : IWindowMessageHook
+	/// <summary>
+	/// ウィンドウメッセージを受け取るための標準のフック
+	/// </summary>
+	public sealed class DefaultWindowMessageHook : IWindowMessageHook
 	{
 		private delegate int WndProcHookDelegateInternal(IntPtr hWnd, uint msg, uint wParam, int lParam);
 
@@ -20,24 +23,35 @@ namespace NativeMenuBar.Hooks
 		[DllImport("user32.dll", EntryPoint = "SetWindowLongA")]
 		extern static int SetWindowLong(IntPtr hwnd, int nIndex, WndProcHookDelegateInternal dwNewLong);
 		[DllImport("user32.dll", EntryPoint = "CallWindowProcA")]
-		public extern static int CallWindowProc(int lpPrevWndFunc, IntPtr hwnd, uint msg, uint wParam, int lParam);
+		internal extern static int CallWindowProc(int lpPrevWndFunc, IntPtr hwnd, uint msg, uint wParam, int lParam);
 
-		public static int lngWnP;
+		internal static int lngWnP;
 
+		/// <summary>
+		/// ウィンドウメッセージ取得時のイベント
+		/// </summary>
 		public event WndProcHookDelegate Hook;
 
+		/// <summary>
+		/// フックを開始します。
+		/// </summary>
+		/// <param name="hwnd">対象のウィンドウハンドル</param>
 		public void StartHook(IntPtr hwnd)
 		{
 			lngWnP = GetWindowLong(hwnd, GWL_WNDPROC);
-			SetWindowLong(hwnd, GWL_WNDPROC, new WndProcHookDelegateInternal(wndProc));
+			SetWindowLong(hwnd, GWL_WNDPROC, new WndProcHookDelegateInternal(WndProc));
 		}
 
+		/// <summary>
+		/// フックを停止します。
+		/// </summary>
+		/// <param name="hwnd">対象のウィンドウハンドル</param>
 		public void StopHook(IntPtr hwnd)
 		{
 			SetWindowLong(hwnd, GWL_WNDPROC, lngWnP);
 		}
 
-		private int wndProc(IntPtr hwnd, uint msg, uint wParam, int lParam)
+		private int WndProc(IntPtr hwnd, uint msg, uint wParam, int lParam)
 		{
 			Hook(hwnd, msg, wParam, lParam);
 			return CallWindowProc(lngWnP, hwnd, msg, wParam, lParam);

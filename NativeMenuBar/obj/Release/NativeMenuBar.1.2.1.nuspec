@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NativeMenuBar</id>
+    <version>1.2.1</version>
+    <authors>kizuki1749</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>NativeMenuBar.png</icon>
+    <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
+    <description>Windows APIを使用したメニューバー</description>
+    <releaseNotes>システムメニューの変更に対応しました。</releaseNotes>
+    <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\NativeMenuBar.dll" target="lib\net461\NativeMenuBar.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\NativeMenuBar.xml" target="lib\net461\NativeMenuBar.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net6.0-windows\NativeMenuBar.dll" target="lib\net6.0-windows7.0\NativeMenuBar.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net6.0-windows\NativeMenuBar.xml" target="lib\net6.0-windows7.0\NativeMenuBar.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\netstandard2.0\NativeMenuBar.dll" target="lib\netstandard2.0\NativeMenuBar.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\netstandard2.0\NativeMenuBar.xml" target="lib\netstandard2.0\NativeMenuBar.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.png" target="\NativeMenuBar.png" />
+  </files>
+</package>

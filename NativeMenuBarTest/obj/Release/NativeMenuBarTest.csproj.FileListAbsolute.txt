@@ -39,3 +39,8 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\obj\Release\NativeMenuBarTe
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\obj\Release\NativeMenuBarTest.csproj.GenerateResource.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\obj\Release\NativeMenuBarTest.csproj.CoreCompileInputs.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\obj\Release\NativeMenuBarTest.csproj.CopyComplete
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\bin\Release\System.Collections.Immutable.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\bin\Release\System.Memory.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\bin\Release\System.Numerics.Vectors.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarTest\bin\Release\System.Buffers.dll

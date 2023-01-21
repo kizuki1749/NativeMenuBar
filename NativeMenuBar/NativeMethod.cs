@@ -46,10 +46,10 @@ namespace NativeMenuBar
 		public static extern bool InsertMenuW(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, IntPtr uIDNewItem, string lpNewItem);
 
 		[DllImport("user32.dll", CharSet = CharSet.Ansi)]
-        public static extern bool ModifyMenuA(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, uint uIDNewItem, string lpNewItem);
+		public static extern bool ModifyMenuA(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, uint uIDNewItem, string lpNewItem);
 
-        [DllImport("user32.dll", CharSet = CharSet.Ansi)]
-        public static extern bool ModifyMenuA(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, IntPtr uIDNewItem, string lpNewItem);
+		[DllImport("user32.dll", CharSet = CharSet.Ansi)]
+		public static extern bool ModifyMenuA(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, IntPtr uIDNewItem, string lpNewItem);
 
 		[DllImport("user32.dll", CharSet = CharSet.Unicode)]
 		public static extern bool ModifyMenuW(IntPtr hMenu, uint uPosition, NativeMenuFlags uFlags, uint uIDNewItem, string lpNewItem);

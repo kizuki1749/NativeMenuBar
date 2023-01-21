@@ -1,0 +1,17 @@
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\NativeMenuBar.pdb
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\System.Buffers.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\System.Collections.Immutable.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\System.Memory.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\System.Numerics.Vectors.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Release\net461\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.csproj.AssemblyReference.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.AssemblyInfoInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.AssemblyInfo.cs
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.csproj.CopyComplete
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net461\NativeMenuBar.pdb

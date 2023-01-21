@@ -1,0 +1,12 @@
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Debug\netstandard2.0\NativeMenuBar.deps.json
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Debug\netstandard2.0\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Debug\netstandard2.0\NativeMenuBar.pdb
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\bin\Debug\netstandard2.0\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.csproj.AssemblyReference.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.AssemblyInfoInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.AssemblyInfo.cs
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Debug\netstandard2.0\NativeMenuBar.pdb

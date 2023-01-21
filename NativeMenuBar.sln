@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeMenuBar", "NativeMenu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeMenuBar.SerializableObjects", "NativeMenuBar.SerializableObjects\NativeMenuBar.SerializableObjects.csproj", "{8F2FA6BD-E5EE-4D43-B18F-F258A783EEEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeMenuBarNet7Test", "NativeMenuBarNet7Test\NativeMenuBarNet7Test.csproj", "{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeMenuBar.Hooks.NETWindowMessageHook", "NativeMenuBar.Hooks.NETWindowMessageHook\NativeMenuBar.Hooks.NETWindowMessageHook.csproj", "{5434CB1D-3A49-4306-A875-0255DA3CED4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,42 @@ Global
 		{8F2FA6BD-E5EE-4D43-B18F-F258A783EEEE}.ReleaseToUnityProject|x64.Build.0 = Release|Any CPU
 		{8F2FA6BD-E5EE-4D43-B18F-F258A783EEEE}.ReleaseToUnityProject|x86.ActiveCfg = Release|Any CPU
 		{8F2FA6BD-E5EE-4D43-B18F-F258A783EEEE}.ReleaseToUnityProject|x86.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|x64.Build.0 = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Debug|x86.Build.0 = Debug|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|x64.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|x64.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|x86.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.Release|x86.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|Any CPU.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|Any CPU.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|x64.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|x64.Build.0 = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|x86.ActiveCfg = Release|Any CPU
+		{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}.ReleaseToUnityProject|x86.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|x64.Build.0 = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|x64.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|x64.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.Release|x86.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|Any CPU.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|Any CPU.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|x64.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|x64.Build.0 = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|x86.ActiveCfg = Release|Any CPU
+		{5434CB1D-3A49-4306-A875-0255DA3CED4E}.ReleaseToUnityProject|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

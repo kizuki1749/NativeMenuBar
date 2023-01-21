@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e/WhhHvf2dE11/0Dn2jl98ybDG3mO7O+PveLkmz356/vxLWeh1LK1viCpAz65soVkDqtDVnjcRnZYcTe6Tnbtw==",
+  "dgSpecHash": "lPykLbz118r6L6KQPw3/DNGPsgxGBa9Os+vJ3sEt4PRaiSd2Znj6aEPX0iv4So5i10uAqECRAKz7wtAQksD/rg==",
   "success": true,
   "projectFilePath": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBar\\NativeMenuBar.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\tkizu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
