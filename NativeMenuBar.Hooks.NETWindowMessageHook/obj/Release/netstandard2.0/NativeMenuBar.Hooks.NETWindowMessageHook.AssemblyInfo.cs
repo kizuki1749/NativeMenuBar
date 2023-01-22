@@ -13,12 +13,12 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("kizuki1749")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用します。")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用し、コンストラクタに指定します。")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.7.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NativeMenuBar.Hooks.NETWindowMessageHook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NativeMenuBar.Hooks.NETWindowMessageHook")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.7.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/kizuki1749/NativeMenuBar")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("ja-JP")]
 

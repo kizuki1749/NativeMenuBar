@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "NativeMenuBarNet7Test/1.0.0": {
         "dependencies": {
-          "NativeMenuBar": "1.2.2",
-          "NativeMenuBar.Hooks.NETWindowMessageHook": "1.0.2"
+          "NativeMenuBar": "1.2.3",
+          "NativeMenuBar.Hooks.NETWindowMessageHook": "1.0.7"
         },
         "runtime": {
           "NativeMenuBarNet7Test.dll": {}
@@ -27,7 +27,7 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "NativeMenuBar/1.2.2": {
+      "NativeMenuBar/1.2.3": {
         "dependencies": {
           "System.Collections.Immutable": "6.0.0",
           "System.Drawing.Common": "6.0.0"
@@ -36,9 +36,9 @@
           "NativeMenuBar.dll": {}
         }
       },
-      "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.2": {
+      "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.7": {
         "dependencies": {
-          "NativeMenuBar": "1.2.2"
+          "NativeMenuBar": "1.2.3"
         },
         "runtime": {
           "NativeMenuBar.Hooks.NETWindowMessageHook.dll": {}
@@ -80,12 +80,12 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "NativeMenuBar/1.2.2": {
+    "NativeMenuBar/1.2.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.2": {
+    "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

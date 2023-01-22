@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net461;net6.0-windows</TargetFrameworks>
     <Nullable>disable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.2.2</Version>
+    <Version>1.2.3</Version>
     <Authors>kizuki1749</Authors>
     <Description>Windows APIを使用したメニューバー</Description>
     <PackageProjectUrl>https://github.com/kizuki1749/NativeMenuBar</PackageProjectUrl>

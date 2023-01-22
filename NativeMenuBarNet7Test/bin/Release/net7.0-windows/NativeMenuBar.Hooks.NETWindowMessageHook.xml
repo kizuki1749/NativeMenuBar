@@ -4,6 +4,16 @@
         <name>NativeMenuBar.Hooks.NETWindowMessageHook</name>
     </assembly>
     <members>
+        <member name="T:NativeMenuBar.Hooks.NETWindowMessageHook">
+            <summary>
+            ウィンドウメッセージを受け取るためのフック。NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用
+            </summary>
+        </member>
+        <member name="M:NativeMenuBar.Hooks.NETWindowMessageHook.#ctor">
+            <summary>
+            コンストラクタ
+            </summary>
+        </member>
         <member name="E:NativeMenuBar.Hooks.NETWindowMessageHook.Hook">
             <summary>
             ウィンドウメッセージ取得時のイベント

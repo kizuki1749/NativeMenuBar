@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net461;net6.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Authors>kizuki1749</Authors>
@@ -12,13 +12,13 @@
     <RepositoryUrl>https://github.com/kizuki1749/NativeMenuBar</RepositoryUrl>
     <PackageProjectUrl>https://github.com/kizuki1749/NativeMenuBar</PackageProjectUrl>
     <PackageIcon>NativeMenuBar.png</PackageIcon>
-    <Version>1.0.2</Version>
+    <Version>1.0.7</Version>
     <Description>NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用し、コンストラクタに指定します。</Description>
-    <Nullable>annotations</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.1|AnyCPU'">

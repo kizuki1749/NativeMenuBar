@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dLusXPSMB9tg8+Kfy9N1zICdkR8sSPuVYdgNE4LF/EnGejtK77o5CEpQEchjRsTk6w2x+E8ewBEPNordkw5dGw==",
+  "dgSpecHash": "vQHo9F++oW9LjE3FBPbGbMxQYd7JQHudqw/AuBIAtUJD+GDvgSfUU2t3JgnoMRxHrBqtoGybssY4uqxABKZt1A==",
   "success": true,
   "projectFilePath": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBarNet7Test\\NativeMenuBarNet7Test.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "C:\\Users\\tkizu\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\tkizu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\tkizu\\.nuget\\packages\\nativemenubar\\1.2.2\\nativemenubar.1.2.2.nupkg.sha512"
+    "C:\\Users\\tkizu\\.nuget\\packages\\nativemenubar\\1.2.3\\nativemenubar.1.2.3.nupkg.sha512",
+    "C:\\Users\\tkizu\\.nuget\\packages\\nativemenubar.hooks.netwindowmessagehook\\1.0.7\\nativemenubar.hooks.netwindowmessagehook.1.0.7.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,3 @@
-D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.csproj.AssemblyReference.cache
-D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.csproj.CoreCompileInputs.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\NativeMenuBar.SerializableObjects.dll.config
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\NativeMenuBar.SerializableObjects.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\NativeMenuBar.SerializableObjects.pdb
@@ -120,6 +118,8 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\System.Numerics.Vectors.xml
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.csproj.AssemblyReference.cache
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.csproj.CoreCompileInputs.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.csproj.CopyComplete
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.SerializableObjects\obj\Release\NativeMenuBar.SerializableObjects.pdb

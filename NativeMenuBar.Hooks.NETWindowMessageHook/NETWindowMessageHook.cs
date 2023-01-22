@@ -3,10 +3,16 @@ using System.Windows.Forms;
 
 namespace NativeMenuBar.Hooks
 {
+	/// <summary>
+	/// ウィンドウメッセージを受け取るためのフック。NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用。
+	/// </summary>
 	public class NETWindowMessageHook : IWindowMessageHook
 	{
 		private WindowHook hook;
 
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
 		public NETWindowMessageHook()
 		{
 		}
@@ -54,7 +60,7 @@ namespace NativeMenuBar.Hooks
 			protected override void WndProc(ref Message m)
 			{
 				base.WndProc(ref m);
-				_hook.WndProc(m.HWnd, (uint)m.Msg, (uint)m.WParam, (int)m.LParam);
+				_hook.WndProc(m.HWnd, (uint)(ulong)m.Msg, (uint)(ulong)m.WParam, (int)(long)m.LParam);
 			}
 		}
 	}

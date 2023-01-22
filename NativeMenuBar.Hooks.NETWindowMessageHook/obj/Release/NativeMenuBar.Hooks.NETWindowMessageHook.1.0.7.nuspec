@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NativeMenuBar.Hooks.NETWindowMessageHook</id>
+    <version>1.0.7</version>
+    <title>NativeMenuBar.Hooks.NETWindowMessageHook</title>
+    <authors>kizuki1749</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>NativeMenuBar.png</icon>
+    <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
+    <description>NativeMenuBarを.NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用し、コンストラクタに指定します。</description>
+    <releaseNotes>細かな修正を行いました。</releaseNotes>
+    <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="NativeMenuBar" version="1.2.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="NativeMenuBar" version="1.2.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\net461\NativeMenuBar.Hooks.NETWindowMessageHook.dll" target="lib\net461\NativeMenuBar.Hooks.NETWindowMessageHook.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\net461\NativeMenuBar.Hooks.NETWindowMessageHook.xml" target="lib\net461\NativeMenuBar.Hooks.NETWindowMessageHook.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.dll" target="lib\net6.0-windows7.0\NativeMenuBar.Hooks.NETWindowMessageHook.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.xml" target="lib\net6.0-windows7.0\NativeMenuBar.Hooks.NETWindowMessageHook.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.png" target="\NativeMenuBar.png" />
+  </files>
+</package>

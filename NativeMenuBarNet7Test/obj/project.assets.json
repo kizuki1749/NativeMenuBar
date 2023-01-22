@@ -88,7 +88,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "NativeMenuBar/1.2.2": {
+      "NativeMenuBar/1.2.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -102,11 +102,11 @@
           "bin/placeholder/NativeMenuBar.dll": {}
         }
       },
-      "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.2": {
+      "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.7": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "NativeMenuBar": "1.2.2"
+          "NativeMenuBar": "1.2.3"
         },
         "compile": {
           "bin/placeholder/NativeMenuBar.Hooks.NETWindowMessageHook.dll": {}
@@ -234,12 +234,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NativeMenuBar/1.2.2": {
+    "NativeMenuBar/1.2.3": {
       "type": "project",
       "path": "../NativeMenuBar/NativeMenuBar.csproj",
       "msbuildProject": "../NativeMenuBar/NativeMenuBar.csproj"
     },
-    "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.2": {
+    "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.7": {
       "type": "project",
       "path": "../NativeMenuBar.Hooks.NETWindowMessageHook/NativeMenuBar.Hooks.NETWindowMessageHook.csproj",
       "msbuildProject": "../NativeMenuBar.Hooks.NETWindowMessageHook/NativeMenuBar.Hooks.NETWindowMessageHook.csproj"
@@ -247,8 +247,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "NativeMenuBar >= 1.2.2",
-      "NativeMenuBar.Hooks.NETWindowMessageHook >= 1.0.2"
+      "NativeMenuBar >= 1.2.3",
+      "NativeMenuBar.Hooks.NETWindowMessageHook >= 1.0.7"
     ]
   },
   "packageFolders": {

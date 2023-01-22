@@ -14,14 +14,14 @@
     <releaseNotes>細かな修正を行いました。</releaseNotes>
     <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" />
     <dependencies>
-      <group targetFramework=".NETCoreApp3.1">
+      <group targetFramework=".NETStandard2.0">
         <dependency id="NativeMenuBar" version="1.2.2" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.dll" target="lib\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.dll" />
-    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.xml" target="lib\netcoreapp3.1\NativeMenuBar.Hooks.NETWindowMessageHook.xml" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.dll" target="lib\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.dll" />
+    <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.xml" target="lib\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.xml" />
     <file src="D:\GitHub Repository\NativeMenuBar\NativeMenuBar.png" target="\NativeMenuBar.png" />
   </files>
 </package>

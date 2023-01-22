@@ -24,3 +24,5 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.csproj.CopyComplete
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.pdb
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\bin\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.xml
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\netstandard2.0\NativeMenuBar.Hooks.NETWindowMessageHook.xml
