@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/kizuki1749/NativeMenuBar</projectUrl>
     <description>Windows APIを使用したメニューバー</description>
     <releaseNotes>細かな修正を行いました。</releaseNotes>
-    <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" />
+    <repository type="git" url="https://github.com/kizuki1749/NativeMenuBar" commit="4a416e760049ee7f0fa25c7929f73090e9756632" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="System.Collections.Immutable" version="6.0.0" exclude="Build,Analyzers" />

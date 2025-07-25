@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Windows APIを使用したメニューバー")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.3+4a416e760049ee7f0fa25c7929f73090e9756632")]
 [assembly: System.Reflection.AssemblyProductAttribute("NativeMenuBar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NativeMenuBar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.3.0")]

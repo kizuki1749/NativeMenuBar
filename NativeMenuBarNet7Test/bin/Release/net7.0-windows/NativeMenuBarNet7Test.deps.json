@@ -33,7 +33,10 @@
           "System.Drawing.Common": "6.0.0"
         },
         "runtime": {
-          "NativeMenuBar.dll": {}
+          "NativeMenuBar.dll": {
+            "assemblyVersion": "1.2.3",
+            "fileVersion": "1.2.3.0"
+          }
         }
       },
       "NativeMenuBar.Hooks.NETWindowMessageHook/1.0.7": {
@@ -41,7 +44,10 @@
           "NativeMenuBar": "1.2.3"
         },
         "runtime": {
-          "NativeMenuBar.Hooks.NETWindowMessageHook.dll": {}
+          "NativeMenuBar.Hooks.NETWindowMessageHook.dll": {
+            "assemblyVersion": "1.0.7",
+            "fileVersion": "1.0.7.0"
+          }
         }
       }
     }

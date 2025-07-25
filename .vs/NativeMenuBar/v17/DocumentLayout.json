@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub Repository\\NativeMenuBar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}|NativeMenuBarNet7Test\\NativeMenuBarNet7Test.csproj|d:\\github repository\\nativemenubar\\nativemenubarnet7test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}|NativeMenuBarNet7Test\\NativeMenuBarNet7Test.csproj|solutionrelative:nativemenubarnet7test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}|NativeMenuBarNet7Test\\NativeMenuBarNet7Test.csproj|D:\\GitHub Repository\\NativeMenuBar\\nativemenubarnet7test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A176ED1C-BB62-4829-8D15-B2D1FB2EC936}|NativeMenuBarNet7Test\\NativeMenuBarNet7Test.csproj|solutionrelative:nativemenubarnet7test\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBarNet7Test\\Form1.cs",
+              "RelativeDocumentMoniker": "NativeMenuBarNet7Test\\Form1.cs",
+              "ToolTip": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBarNet7Test\\Form1.cs",
+              "RelativeToolTip": "NativeMenuBarNet7Test\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-21T12:09:34.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBarNet7Test\\Form1.cs",
+              "RelativeDocumentMoniker": "NativeMenuBarNet7Test\\Form1.cs",
+              "ToolTip": "D:\\GitHub Repository\\NativeMenuBar\\NativeMenuBarNet7Test\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "NativeMenuBarNet7Test\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2023-01-21T12:09:33.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

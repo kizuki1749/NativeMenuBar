@@ -18,9 +18,10 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.AssemblyInfoInputs.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.AssemblyInfo.cs
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.csproj.CoreCompileInputs.cache
-D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.csproj.CopyComplete
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\refint\NativeMenuBar.Hooks.NETWindowMessageHook.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.xml
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.pdb
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\ref\NativeMenuBar.Hooks.NETWindowMessageHook.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMenuBar.Hooks.NETWindowMessageHook.sourcelink.json
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar.Hooks.NETWindowMessageHook\obj\Release\net6.0-windows\NativeMe.C47409D8.Up2Date

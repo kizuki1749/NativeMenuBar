@@ -6,7 +6,7 @@
     <members>
         <member name="T:NativeMenuBar.Hooks.NETWindowMessageHook">
             <summary>
-            ウィンドウメッセージを受け取るためのフック。NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用
+            ウィンドウメッセージを受け取るためのフック。NET Coreや.NET 5以降で使用されるWinFormsに使用する場合はこちらを使用。
             </summary>
         </member>
         <member name="M:NativeMenuBar.Hooks.NETWindowMessageHook.#ctor">

@@ -10,3 +10,4 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net6.0-windows\Nati
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net6.0-windows\NativeMenuBar.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net6.0-windows\NativeMenuBar.xml
 D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net6.0-windows\NativeMenuBar.pdb
+D:\GitHub Repository\NativeMenuBar\NativeMenuBar\obj\Release\net6.0-windows\NativeMenuBar.sourcelink.json

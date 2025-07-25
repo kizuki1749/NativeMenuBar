@@ -17,9 +17,10 @@ D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-wind
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.AssemblyInfoInputs.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.AssemblyInfo.cs
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.csproj.CoreCompileInputs.cache
-D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.csproj.CopyComplete
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\refint\NativeMenuBarNet7Test.dll
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.pdb
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.genruntimeconfig.cache
 D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\ref\NativeMenuBarNet7Test.dll
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMenuBarNet7Test.sourcelink.json
+D:\GitHub Repository\NativeMenuBar\NativeMenuBarNet7Test\obj\Release\net7.0-windows\NativeMe.E23B4F87.Up2Date

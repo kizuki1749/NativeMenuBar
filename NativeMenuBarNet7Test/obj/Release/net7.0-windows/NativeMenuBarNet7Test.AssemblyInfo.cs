@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NativeMenuBarNet7Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a416e760049ee7f0fa25c7929f73090e9756632")]
 [assembly: System.Reflection.AssemblyProductAttribute("NativeMenuBarNet7Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NativeMenuBarNet7Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
